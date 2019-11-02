@@ -13,7 +13,7 @@ int frequency_of_primes (int n) {
 int main ()
 {
   clock_t t;
-  int f;
+  int g;
   t = clock();
   printf ("Calculating...\n");
   f = frequency_of_primes (99999);
